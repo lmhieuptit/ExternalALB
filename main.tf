@@ -1,6 +1,5 @@
 provider "google" {
   project = var.project_id
-  credentials = file("externalalb-8202c7b07f26.json")
 }
 
 module "vpc" {
